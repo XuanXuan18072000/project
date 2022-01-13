@@ -1,0 +1,156 @@
+.trangdangnhap{
+    position: relative;
+    width: 1440px;
+    height: 810px;
+
+    /* BG */
+
+    background: #F7F7F7;
+    border-radius: 16px;
+}
+.tieudeqlxh{
+position: absolute;
+width: 361px;
+height: 54px;
+left: 1046px;
+top: 454px;
+
+/* 36/36 Xbold */
+
+font-family: Nunito;
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height, or 150% */
+
+text-align: center;
+
+/* Orange/$-Orange-500 */
+
+color: #FF7506;
+
+}
+.tieudeht{
+position: absolute;
+width: 142px;
+height: 54px;
+left: 1046px;
+top: 407px;
+
+/* 34/34 Reg */
+
+font-family: Nunito;
+font-style: normal;
+font-weight: normal;
+font-size: 34px;
+line-height: 51px;
+/* or 150% */
+
+text-align: center;
+
+/* Orange/$-Orange-500 */
+
+color: #FF7506;
+}
+.rectangle1{
+    position: absolute;
+    width: 848px;
+    height: 810px;
+    left: 592px;
+    top: 0px;
+
+    /* White */
+
+    background: #FFFFFF;
+}
+.tendn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 400px;
+    height: 75px;
+    left: 94px;
+    top: 293px;
+}
+.mk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 400px;
+    height: 75px;
+    left: 94px;
+    top: 384px;
+
+}
+.tieudeqmk{
+    position: absolute;
+    width: 102px;
+    height: 21px;
+    left: 94px;
+    top: 471px;
+
+    /* 14/14 Reg */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+
+    /* Red */
+
+    color: #E73F3F;
+}
+.nutdn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+
+    position: absolute;
+    width: 162px;
+    height: 40px;
+    left: 215px;
+    top: 511px;
+
+    /* Orange/$-Orange-400 */
+
+    background: #FF9138;
+    /* down */
+
+    box-shadow: 0px 0px 6px #E7E9F2;
+    border-radius: 8px;
+}
+.nutdn1{
+    font-family: Mulish;
+    border: 0;
+    color: white;
+    background: linear-gradient(270deg,#FF5400 0%);
+}
+.hinhgroup{
+    position: absolute;
+    width: 605px;
+    height: 614.06px;
+    left: 671px;
+    top: 112.94px;
+}
+.hinhlogo{
+    position: absolute;
+    width: 170px;
+    height: 136px;
+    left: 208px;
+    top: 82px;
+
+}
