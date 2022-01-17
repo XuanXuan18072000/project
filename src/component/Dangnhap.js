@@ -1,5 +1,5 @@
 import React from 'react';
-import "./style.css"
+import "./style_dn.css"
 
     const Dangnhap = function(props){
         return(
@@ -8,12 +8,13 @@ import "./style.css"
                     <h6 className="tieudeqlxh">Quản Lý Xếp Hàng</h6>
                     <h1 className="tieudeht">Hệ Thống</h1>
                     <div className="hinhgroup">
+                        <img src={require('./img/Group341.png')} />  
                     </div>
                     
                 </div>
                     <div className="rectangle2">
                         <div className="hinhlogo">
-                        
+                            <img src={require('./img/Logoalta.png')} />  
                         </div>
                         
                             <div className="tendn">
@@ -24,7 +25,7 @@ import "./style.css"
                                 <div className="mk">
                                     <p>Mật khẩu *</p>
                                     <label htmlFor="pass"></label>
-                                    <input className="o1"  type="password"/>
+                                    <input className="o1"  type="password"/>  
                                 </div>
                                 <p className="tieudeqmk">Quên mật khẩu</p>
                                     <div className="nutdn">

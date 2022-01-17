@@ -1,5 +1,6 @@
 import React from 'react';
-import "./style.css"
+import "./style_saimk.css"
+
     const Saimk = function(props){
         return(
             <div className="trangdangnhap">
@@ -7,29 +8,34 @@ import "./style.css"
                     <h6 className="tieudeqlxh">Quản Lý Xếp Hàng</h6>
                     <h1 className="tieudeht">Hệ Thống</h1>
                     <div className="hinhgroup">
-                    <img src="./public/img/Group 341.png"/>
+                    <img src={require('./img/Group341.png')} /> 
                     </div>
                     
                 </div>
                     <div className="rectangle2">
                         <div className="hinhlogo">
-                        <img src="./pulic/img/Logo alta.png"/>
+                        <img src={require('./img/Logoalta.png')} /> 
                         </div>
                         
                             <div className="tendn">
                                 <p>Tên đăng nhập *</p>
                                 <label htmlFor="username"></label>
-                                <input type="text"/>
+                                <input className="nhapten" type="text"/>
                             </div>
                                 <div className="mk">
                                     <p>Mật khẩu *</p>
                                     <label htmlFor="pass"></label>
-                                    <input type="password"/>
+                                    <input className="nhapten" type="password"/>
                                 </div>
-                                <p className="tieudeqmk">Quên mật khẩu</p>
+                                <div className="canhbao">
+                                    <p>Sai mật khẩu hoặc họ tên đăng nhập</p>
+                                </div>
                                     <div className="nutdn">
                                        <button className="nutdn1" type="click">Đăng nhập</button>
                                     </div>
+                                        <div >
+                                            <p className="tieudeqmk">Quên mật khẩu</p>
+                                        </div>
                     </div>
 
             </div>
