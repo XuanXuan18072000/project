@@ -14,33 +14,33 @@
     width: 100%;
 }
 
-.container .left-container{
+.container .ben_trai{
     background-color:white;
     width: 15%;
-    height: 100vh;
+    height: 900px;
     float: left;
 }
 
-.container .left-container .logo-login img{
+.container .ben_trai .logo-login img{
     width: 40%;
     height: 8%;
     margin: 4% 30% 0px 30%;
 
 }
-.container .left-container ul{
+.container .ben_trai ul{
     padding: 54px 24px 0 24px;
     background-color: white;
 }
-.container .left-container ul li{
+.container .ben_trai ul li{
     list-style: none;
     height: 48px;
 
 }
-.container .left-container ul li img{
+.container .ben_trai ul li img{
     filter: invert(0.2);
     height: 14px;
 }
-.container .left-container ul li div{
+.container .ben_trai ul li div{
     list-style: none;
     padding: 12px 0px 12px 0px;
     font-size: 16px;
@@ -48,16 +48,16 @@
     line-height: 24px;
     line-height: 110%;
 }
-.container .left-container ul li div a{
+.container .ben_trai ul li div a{
     margin-left: 8px;
 }
-.container .left-container ul li span{
+.container .ben_trai ul li span{
     color:#A9A9B0;
     padding: 3px 0;
     float: right;
     width: 1px;
 }
-.container .left-container ul li .logout-button{
+.container .ben_trai ul li .logout-button{
     position: absolute;
     padding: 12px 70px 12px 15px;
     bottom: 0;
@@ -67,57 +67,70 @@
     line-height: 24px;
     line-height: 110%;
     color: #FF7506;
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 200px 0px;
 }
 
-.container .right-container{
+.container .ben_phai{
     width: 85%;
     height: 100vh;
     float: right;
 }
-.container .right-container .top-content{
+.container .ben_phai .top-content{
     background-color: cornsilk;
     margin: 2.5% 0 0 2%;
 }
-.container .right-container .top-content .left-title{
+.container .ben_phai .ben_tren .tt_phai{
     float: left;
 }
-.container .right-container .top-content .left-title p{
-    font: bold;
-    size: 2.5%;
+.container .ben_phai .ben_tren .tt_trai p{
+    position: static;
+    width: 168px;
+    height: 30px;
+    left: 0px;
+    top: 5px;
+
+    /* 20/20 Bold */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
     line-height: 30px;
-    line-height: 110%;
-    margin: 0;
+    /* identical to box height, or 150% */
+
+
+    /* Orange/$-Orange-400 */
+
     color: #FF9138;
 
-    white-space: nowrap;
-    font-style: bold;
 
 }
-.container .right-container .top-content .right-title{
-    float: right;
-    width: 24%;
-    margin: -12px 0;
-    padding:12px 0;
+.container .ben_phai .ben_tren .tt_phai{
+    position: absolute;
+    width: 172px;
+    height: 42px;
+    left: 1080px;
+    bottom: 730px;
+
 }
-.container .right-container .top-content .right-title .alarm-button div p{
+.container .ben_phai .ben_tren .tt_phai .alarm-button div p{
     padding: 6px;
     background-color: #FFF2E7;
     color:#FFAC6A;
     border-radius: 32px;
     margin: 6px 0 0 0;
 }
-.container .right-container .top-content .right-title .user-account div{
+.container .ben_phai .ben_tren .tt_phai .user-account div{
     padding: 0px 0px 0px 24px ;
     display: flex;
 }
-.container .right-container .top-content .right-title div div{
+.container .ben_phai .ben_tren .tt_phai div div{
     float: left;
 }
-.container .right-container .top-content .right-title .user-account div p{
+.container .ben_phai .ben_tren .tt_phai .user-account div p{
     margin: 0;
 }
-.container .right-container .middle-content{
+.container .ben_phai .middle-content{
     background-color: white;
     border-radius: 6px;
     margin: 10% 15% 30% 2%;
@@ -125,15 +138,15 @@
     display: flex;
     position: relative;
 }
-.container .right-container .middle-content .left-title,.middle-title,.right-title{
+.container .ben_phai .middle-content .tt_trai,.middle-title,.tt_phai{
     margin: 2%;
     width: 432px;
 }
-.container .right-container .middle-content .left-title{
+.container .ben_phai .middle-content .tt_trai{
     text-align: center;
 }
 
-.container .right-container .middle-content .left-title .top-img .logo-camera{
+.container .ben_phai .middle-content .tt_trai .top-img .logo-camera{
     border: solid 1 px;
     padding: 11px;
     background-color: #FF7506;
@@ -144,14 +157,14 @@
     border: 2px solid white;
     color: white;
 }
-.container .right-container .middle-content .left-title .bottom-username{
+.container .ben_phai .middle-content .tt_trai .bottom-username{
     font-size: 24px;
     line-height: 36px;
     line-height: 110%;
     color: #282739;
 }
 
-.container .right-container .middle-content div div div input{
+.container .ben_phai .middle-content div div div input{
     width: 100%;
     height: 44px;
     background-color: #EAEAEC;
@@ -159,11 +172,11 @@
     border-radius: 6px;
     padding-left: 16px;
 }
-.container .right-container .middle-content div div div p{
+.container .ben_phai .middle-content div div div p{
     border: none;
     border-radius: 6px;
 }
-.container .right-container .middle-content .middle-title p{
+.container .ben_phai .middle-content .middle-title p{
     border: none;
     border-radius: 6px;
 } 

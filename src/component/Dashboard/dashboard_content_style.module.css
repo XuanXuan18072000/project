@@ -1,0 +1,89 @@
+.statistics div{
+    width: 100%;
+    border-radius: 10px;
+}
+.statistics div div{
+    display: block;
+    padding: 10px;
+
+}
+.statistics{
+    display: flex;
+    height: 120px;
+    width: 13%;
+    
+}
+.top_info div{
+    width: 48px;
+    height: 48px;
+    border-radius:50px ;
+}
+.top_info img{
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+.number_given .top_info div{
+    margin-right: 10px;
+    background-color: #E8EFFE;
+}
+.number_used .top_info div{
+    margin-right: 10px;
+    background-color: #E1F7E6;
+}
+.number_waitting .top_info div{
+    margin-right: 10px;
+    background-color: #FFF3E9;
+}
+.number_skip .top_info div{
+    margin-right: 10px;
+    background-color: #FEE9E9;
+}
+.number_given,.number_used,.number_waitting,.number_skip{
+    margin: 0px 20px 0px 20px;
+
+}
+.statistics div .top_info{
+    display: flex;
+    background-color: #FFFFFF;
+}
+.statistics div .bottom_info{
+    display: flex;
+    background-color: #FFFFFF;
+}
+.bottom_info h2{
+    margin-top: 35px;
+    font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height, or 150% */
+
+
+/* Gray/$-gray-400 Text */
+
+color: #535261;
+
+}
+.bottom_info a{
+    margin-left:60px ;
+    margin-top: 45px;
+    text-align: center;
+}
+.arrow_up{
+    color: #FF9138;
+    background-color:rgba(255, 149, 1, 0.15); ;
+    border-radius:10px ;
+    width: 100px;
+    height: 22px;
+    font-size: 18px;
+}
+.arrow_down{
+    color: #E73F3F;
+    background-color:rgba(231, 63, 63, 0.15); 
+    border-radius:10px ;
+    width: 100px;
+    height: 22px;
+    font-size: 18px;
+}

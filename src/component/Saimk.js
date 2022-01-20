@@ -33,8 +33,8 @@ import "./style_saimk.css"
                                     <div className="nutdn">
                                        <button className="nutdn1" type="click">Đăng nhập</button>
                                     </div>
-                                        <div >
-                                            <p className="tieudeqmk">Quên mật khẩu</p>
+                                        <div className="tieude_mk">
+                                            <p>Quên mật khẩu</p>
                                         </div>
                     </div>
 

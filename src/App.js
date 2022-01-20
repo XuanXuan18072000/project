@@ -8,15 +8,21 @@ import Taikhoan_canhan from './component/Taikhoan_canhan'
 
 
 function App() {
-  return(
-    <div>
-      {/* Dangnhap/*/}
-      {/*Saimk/*/}
-      {/*Mklai/*/}
-      {/*Dmkm/*/}
-      <Taikhoan_canhan/>
-    </div>
-  )
-  
-}
+    return (
+     
+      <div className="App">
+     <Dangnhap/>
+     <Saimk/>
+     <Mklai/>
+     <Dmkm/>
+     <Taikhoan_canhan/>
+        
+        
+        
+        
+       
+      </div>
+      
+    );
+    }
 export default App;

@@ -11,11 +11,12 @@ import logo_setting from "./img/logo_setting.png";
 import hinh_canhan from "./img/hinh_canhan.png"
 
 
+
     const Taikhoan_canhan = function(props){
         return(
-            <div className="trangdangnhap">
+            <div className="trangcanhan">
                 <div className='container'>
-                    <div className='left-container'>
+                    <div className='ben_trai'>
                         <div className='logo-login'>
                             <img src={logo_alta} alt="logo_alta"/>
                         </div>
@@ -26,20 +27,20 @@ import hinh_canhan from "./img/hinh_canhan.png"
                                 <li><div><img src={logo_service} alt='logo_service'/><a >Dịch vụ</a></div></li>
                                 <li><div><img src={logo_level} alt='logo_level'/><a >Cấp số</a></div></li>
                                 <li><div><img src={logo_report} alt='logo_report'/><a>Báo cáo</a></div></li>
-                                <li><div><img src={logo_setting} alt='logo_setting'/><a>Cài đặt hệ thống</a><span className='fas fa-ellipsis-v fa-xs'></span></div></li>
+                                <li><div><img src={logo_setting} alt='logo_setting'/><a>Cài đặt hệ thống</a></div></li>
                                 <li><div className='logout-button'><img src={logo_logout} alt='logo_logout'/><a>Đăng xuất</a>&nbsp;&nbsp;</div></li> 
                             </ul>
                         </div>
                     </div>
-                    <div className='right-container'>
-                        <div className='top-content'>
-                            <div className='left-title'>
+                    <div className='ben_phai'>
+                        <div className='ben_tren'>
+                            <div className='tt_trai'>
                                 <p> Thông tin cá nhân</p>
                             </div>
-                            <div className='right-title'>
+                            <div className='tt_phai'>
                                 <div className='alarm-button'>
                                     <div>
-                                        <p className='fas fa-bell'></p>
+                                        <p className='icon_chuong'></p>
                                     </div>
                                 </div>
                                 <div className='user-account'>
@@ -51,7 +52,7 @@ import hinh_canhan from "./img/hinh_canhan.png"
                             </div>
                         </div>
                         <div className='middle-content'>
-                            <div className='left-title'>
+                            <div className='tt_trai'>
                                 <div className='top-img'>
                                     <img src={hinh_canhan} width={248} height={248}></img><p className='logo-camera fas fa-camera'></p>
                                 </div>
@@ -85,7 +86,7 @@ import hinh_canhan from "./img/hinh_canhan.png"
                                     </div>
                                 </div>
                             </div>
-                            <div className='right-title'>
+                            <div className='tt_phai'>
                                 <div className='username'>
                                     <div className='username-title'>
                                         <p>Tên đăng nhập</p>

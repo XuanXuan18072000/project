@@ -1,6 +1,8 @@
 import React from 'react';
 import "./style_dn.css"
 
+
+
     const Dangnhap = function(props){
         return(
             <div className="trangdangnhap">
@@ -28,9 +30,11 @@ import "./style_dn.css"
                                     <input className="o1"  type="password"/>  
                                 </div>
                                 <p className="tieudeqmk">Quên mật khẩu</p>
-                                    <div className="nutdn">
-                                       <button className="nutdn1" type="click">Đăng nhập</button>
-                                    </div>
+                                    
+                                        <div className="nutdn">
+                                            <button className="nutdn1" type="click">Đăng nhập</button>
+                                        </div>
+                                    
                     </div>
             </div>
                 

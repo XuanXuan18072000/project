@@ -1,0 +1,64 @@
+.container{
+    padding: 0;
+    margin: 0;
+    margin-top: -20px;
+}
+.left_container{
+    background-color:white;
+    width: 15%;
+    height: 100vh;
+    float: left;
+}
+.top_container{
+    width: 100%;
+    height: 11%;
+}
+.right_container{
+    width: 100%;
+    float: right;
+    position: absolute;
+}
+.top_container .top_content .left_title p{
+    font-weight: bold;
+    size: 2.5%;
+    line-height: 30px;
+    line-height: 110%;
+    color: #FF9138;
+    font-size: 20px;
+    white-space: nowrap;
+}
+.top_container .top_content .right_title{
+    float: right;
+    width: 15%;
+    position: sticky;
+}
+.alarm_button .alarm_button_icon{
+    float: left;
+    padding: 6px;
+    background-color: #FFF2E7;
+    color:#FFAC6A;
+    border-radius: 32px;
+    margin: 6px 0 0 0;
+}
+
+.top_container .top_content .right_title .user_account div{
+    padding: 0px 0px 0px 24px ;
+    display: flex;
+}
+.top_container .top_content .right_title .user_account div p{
+    margin: 0;
+}
+
+.bottom_container .dashboard_title{
+margin-top: 100px;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+
+/* Orange/$-Orange-500 */
+
+color: #FF7506;
+}
