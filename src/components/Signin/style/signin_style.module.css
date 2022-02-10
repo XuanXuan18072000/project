@@ -1,0 +1,98 @@
+.container{
+
+}
+.left_container{
+    float: left;
+    background-color: #F6F6F6;
+    width: 40%;
+    height: 100vh;
+}
+.logo_login{
+    margin:15vh 0 0 25vh;
+}
+.login_form{
+    margin: 10% 0 0 15%;
+}
+.login_form .login_username_input{
+    width: 400px;
+    height: 44px;
+}
+.login_form .login_username_input .input_username{
+    border-radius: 8px;
+    margin-top: 4px;
+    border: solid gray 1px;
+    padding: 9px 259px 9px 12px;
+}
+.login_form .login_password_input{
+}
+.login_form .login_password_input .input_password{
+    border-radius: 8px;
+    margin-top: 4px;
+    border: solid gray 1px;
+    padding: 9px 259px 9px 12px;
+}
+.login_form .login_password_input .eye_icon{
+    float: right;
+    margin-right: 210px;
+    margin-top: -25px;
+    position: relative;
+    color: #7E7D88;
+}
+
+.login_form .login_button .login_button_signin{
+    background-color: #FF9138;
+    border-radius: 6px;
+    padding: 8px 40px 8px 40px;
+    border: 0px;
+    font-style: bold;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 110%;
+    vertical-align: top;
+    text-align: center;
+    margin-left:23%;
+}
+
+.login_form .login_forgot_password p{
+    font-size: 14px;
+    line-height: 21px;
+    line-height: 110%;
+    vertical-align: top;
+    color: #E73F3F;
+}
+.right_container{
+    float: right;
+    width: 60%;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+.right_image_background{
+}
+.right_content{
+    margin: 113px 164px 83px 79px;
+    
+}
+.right_title_background p{
+    left: 65%;
+    top: 41%;
+    position: absolute;
+}
+.right_top_title{
+    font-size: 34px;
+    line-height: 51px;
+    line-height: 110%;
+    vertical-align: top;
+    fill: solid;
+    color: #ff7506;
+    
+}
+.right_bottom_title{
+    font-style: black;
+    font-size: 36px;
+    line-height: 54px;
+    line-height: 110%;
+    vertical-align: top;
+    fill: solid;
+    color: #ff7506;
+}

@@ -1,0 +1,67 @@
+.logo_login img{
+    width: 40%;
+    height: 8%;
+    margin: 4% 30% 0px 30%;
+}
+ul{
+    list-style-type: none;
+    margin: 70px 0 0 0;
+    padding: 0;
+}
+ul .menu_tag{
+    list-style: none;
+    height: 48px;
+}
+ul .menu_tag img{
+    filter: invert(0.2);
+    height: 14px;
+}
+.menu_tag div{
+    list-style: none;
+    padding: 12px 24px 12px 24px;
+    font-size: 16px;
+    color:#7E7D88;
+    line-height: 24px;
+    line-height: 110%;
+    display: block;
+    text-decoration: none;
+}
+
+.menu_tag div.dashboard_active{
+    background-color: #FF7506;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.menu_tag div:hover:not(.dashboard_active){
+    font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #FF7506;
+background: #FFF2E7;
+}
+ul .menu_tag div a{
+    margin-left: 8px;
+}
+ul .menu_tag span{
+    color:#A9A9B0;
+    padding: 3px 0;
+    float: right;
+    width: 1px;
+}
+ul .menu_tag .logout_button{
+    position: absolute;
+    padding: 12px 90px 12px 15px;
+    bottom: 0;
+    background-color: #FFF2E7;
+    border-radius: 8px;
+    size: 16px;
+    line-height: 24px;
+    line-height: 110%;
+    color: #FF7506;
+    margin: 0px 0px 30px 24px;
+}

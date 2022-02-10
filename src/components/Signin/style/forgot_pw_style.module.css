@@ -1,0 +1,94 @@
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.container .left_content{
+    float: left;
+    width: 40%;
+    height: 100vh;
+    background-color:#F6F6F6;
+    text-align: center;
+}
+.container .left_content .logo_alta{
+    text-align: center;
+    width: 29%;
+    height: 17%;
+    margin: 10% 36% 12% 36%;
+}
+.container .middle_content .forgot_pw .forgot_title p{
+    margin-left: 33%;
+    margin-right: 31%;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    line-height: 110%;
+    vertical-align: top;
+}
+.container .middle_content .forgot_pw .forgot_description{
+    font-size: 18px;
+    text-align: center;
+}
+.container .middle_content .forgot_pw .forgot_input{
+    text-align: center;
+}
+.container .middle_content .forgot_pw .forgot_input input{
+    width: 400px;
+    height: 44px;
+    border-radius: 8px;
+    border: 0;
+    font-family: Nunito;
+    line-height: 27px;
+    line-height: 110%;
+}
+.container .middle_content .forgot_actions{
+    text-align: center;
+    margin: 48px 25%;
+}
+.container .middle_content .forgot_actions div button{
+    text-align: center;
+    width: 162px;
+    height: 44px;
+    border-radius:8px ;
+    border: solid 1px #FF9138;
+    background-color: #F6F6F6;
+    /* padding: 6px 66px 6px 66px; */
+    float: left;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 110%;
+    vertical-align: top;
+}
+.container .middle_content .forgot_actions .right_button button{
+    background-color: #FF9138;
+    margin: 0 0 0 12px;
+    color: white;
+}
+.container .middle_content .forgot_actions .left_button button{
+    margin: 0 12px 0 0;
+    color: #FF9138;
+}
+.container .right_content{
+    float: right;
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+}
+
+.container .right_content .img_bg_gruop1{
+    margin: 19% 11% 12% 5%;
+}
+/* Forgot_pw_again */
+.container .middle_content .forgot_pw .forgot_input{
+    text-align: center;
+}
+.container .middle_content .forgot_pw .forgot_input input{
+    width: 400px;
+    height: 44px;
+    border-radius: 8px;
+    border: 0;
+    font-family: Nunito;
+    line-height: 27px;
+    line-height: 110%;
+}

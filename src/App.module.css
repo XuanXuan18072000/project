@@ -1,0 +1,8 @@
+@import "@font/nunito";
+
+.total_container{
+    background-color: #F6F6F6;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+}
