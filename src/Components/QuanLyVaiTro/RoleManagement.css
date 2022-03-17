@@ -1,0 +1,67 @@
+.QuanLyVaiTro{
+    display: flex;
+    flex: 4 1;
+    flex-direction: column;
+    padding: 20px;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.QuanLyVaiTro__Talbe{
+    padding-bottom: 40px;
+    width: 90%;
+}
+
+.QuanLyVaiTro__Talbe .ServiceDropdownsSarchFirst  {
+    margin-left:auto;
+    width: 28%;
+    margin-bottom: 28px;
+}
+
+.QuanLyVaiTro__Talbe .seacrchlogo{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.QuanLyVaiTro__Talbe .ServiceDropdownsSearchTItle{
+    margin-top: 18px;
+}
+
+.QuanLyVaiTro__Talbe__data {
+    background-color:white;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+
+.QuanLyVaiTro__Talbe__data .DetailService__container__table__detail__title__item:nth-child(3){
+    width:43%;
+}
+
+
+.QuanLyVaiTro__Talbe__data .DetailService__container__table__detail__title__item:nth-child(1){
+    width:19%;
+}
+
+.QuanLyVaiTro__Talbe__data .DetailService__container__table__detail__title__item:nth-child(2){
+    width:19%;
+}
+
+.QuanLyVaiTro__Talbe__data .DetailService__container__table__detail__title__item:nth-child(4){
+    width:19%;
+}
+
+.QuanLyVaiTro__Talbe__data .DetailService__container__table__detail {
+    width:100%;
+}
+
+.QuanLyVaiTro__Talbe__data a {
+    color: #4277FF;
+    text-decoration:underline;
+}
+
+.QuanLyVaiTro .ServiceAdd{
+    top:31%;
+}

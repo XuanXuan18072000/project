@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import {useEffect,useState} from 'react'
 import './App.css';
-import Login from './Components/Login'
+import Login from './Components/DangNhap'
 import UserInfor from './Components/Login/UserInfor'
 import DashBorad from './Components/DashBorad'
 import MenuBar from './Components/MenuBar'
@@ -26,7 +26,7 @@ import NumberLevel from './Components/NumberLevel'
 import AddNumberLevel from './Components/AddNumberLevel'
 import DetailNumberLevel from './Components/DetailNumberLevel'
 import SlideBarNumberLevel from './Components/SlideBarNumberLevel'
-import Report from './Components/Report'
+import BaoCao from './Components/BaoCao'
 import UserList from './Components/UserList'
 import AddUserList from './Components/AddUserList'
 import UpdateUserList from './Components/UpdateUserList'
@@ -102,7 +102,7 @@ function App(){
           <Route  path={'/number-level/add-number-level-no-account' } element={<><SlideBarNumberLevel /><AddNumberLevel/></>}></Route>
           
 
-          <Route  path={'/report' } element={<><SlideBar /><Report /></>}></Route>
+          <Route  path={'/report' } element={<><SlideBar /><BaoCao /></>}></Route>
 
           <Route  path={'/user-list' } element={<><SlideBar /><UserList /></>}></Route>
           <Route  path={'/user-list/add-user' } element={<><SlideBar /><AddUserList /></>}></Route>
