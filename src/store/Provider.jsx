@@ -9,9 +9,9 @@ function Provider ({children} ) {
     const [userss,setUserss]=useState([])
     
     const users = {
-        email:'',
         name:'', 
         password:'',
+        email:'',
     }
 
     const fetchBlogs=async()=>{
