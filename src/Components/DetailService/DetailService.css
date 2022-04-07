@@ -96,8 +96,6 @@
     display: flex;
     align-items: center;
     margin-left: 5px;
-    
-
 }
 
 .DetailService__container_items__item_1__inputs input{
@@ -140,7 +138,6 @@
 .ServiceDropdowns_input--detailService input {
     width: 172px !important;
     margin-left: 55px;
-    margin-top: -2px;
 }
 
 .ServiceDropdownsSarchFirstName--detailService{
@@ -251,11 +248,3 @@
 .DetailService__container__table__detail {
     width:101%;
 }
-
-
-.DetailService .paginationBttns{
-    width:97%;
-}
-.DetailService > .ChosePage__preArrow{
-    margin-top:2px ;
-} 

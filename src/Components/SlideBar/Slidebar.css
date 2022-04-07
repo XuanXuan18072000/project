@@ -54,17 +54,7 @@ a{
     height:16px;
     margin-top: 3px;
     margin-left:20px;
-    position: relative;
 }
-.settingMore::before{
-    content: '';
-    left:40px;
-    width:10px;
-    position:absolute;
-    height:10px;
-    background-color:transparent;
-}
-
 
 .slibarDetailItemName{
         font-family: Nunito;
@@ -132,7 +122,6 @@ margin: 0px 12px;
     background: #FFFFFF;
     padding: 0;
     border-radius: 0px 12px 0px 0px;
-    
 }
 li{
     list-style: none;
@@ -157,4 +146,3 @@ li{
 .activeSlidebar span {
     color: white;
 }
-
